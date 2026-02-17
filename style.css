@@ -442,6 +442,7 @@ body {
     }
 }
 
+
 @media screen and (max-width:600px){
     .Navbar__sec3>* {
         display: none;
