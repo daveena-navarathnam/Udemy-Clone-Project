@@ -40,6 +40,18 @@ body {
 .Navbar__sec1 p {
     color: #6C6F83;
 }
+.Navbar__sec1 p:hover{
+    transition: 0.1s;
+    color:#9476DB ;
+}
+.Navbar__sec3 p:hover{
+    transition: 0.1s;
+    color:#9476DB ;
+}
+.Navbar__sec3 i:hover{
+    transition: 0.1s;
+    color:#9476DB ;
+}
 
 .Navbar__sec1__Title {
     color: black;
@@ -107,6 +119,11 @@ body {
 .catagories p {
     color: #6A6F73;
     cursor: pointer;
+}
+.catagories p:hover{
+    transition: 0.1s;
+     color: #9476DB;
+
 }
 
 
@@ -308,7 +325,9 @@ body {
     height: auto;
     margin-left: auto;
     cursor: pointer;
+    
 }
+
 
 .footer2 {
     padding: 40px 40px;
