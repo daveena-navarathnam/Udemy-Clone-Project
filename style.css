@@ -22,7 +22,7 @@ body {
     flex-wrap: wrap;
     width: 100%;
     gap: 10px;
-
+    
 }
 
 
@@ -89,7 +89,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     cursor: pointer;
-
+    z-index: 1;
 }
 
 
@@ -105,8 +105,25 @@ body {
 
 .sales-image img {
     width: 100%;
+    
 }
-
+.sales-image{
+    position: relative;
+}
+.sales-image__1{
+    width: 400px;
+    height: 180px;
+    background-color: white;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    padding: 25px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    justify-content: center;
+}
+.sales-image__1 p{
+    margin-top: 10px;
+}
 .catagories {
     display: flex;
     flex-wrap: wrap;
@@ -114,6 +131,7 @@ body {
     justify-content: center;
     padding: 15px;
     border-bottom: solid lightgray 1px;
+
 }
 
 .catagories p {
@@ -125,9 +143,36 @@ body {
      color: #9476DB;
 
 }
-
-
-
+.My-learning{
+    position: relative;
+}
+.My-learning_1{
+    width: 300px;
+    height: 125px;
+    padding: 20px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    border: grey solid 1px;
+    border-radius:10px;
+    text-align: center;
+    color: black;
+    display: none;
+}
+.My-learning_2{
+    width: 260px;
+    height: 40px;
+    border: #702DD2 solid 1px;
+    color: #702DD2;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.My-learning:hover .My-learning_1{
+    display: block;
+}
 .recommended {
     padding: 40px 80px;
 }
@@ -459,6 +504,9 @@ body {
     .topics {
         display: none;
     }
+    .sales-image__1{
+        display: none;
+    }
 }
 
 
@@ -488,4 +536,16 @@ body {
     .course-card-trending {
         flex-basis: 50%;
     }
+    .sles-image__1{
+        display: none;
+    }
+    .footer__container4{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;  
+         gap: 30px;     
+
+    }
+    
+    
 }
